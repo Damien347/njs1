@@ -2,6 +2,9 @@
 const fs = require('fs');
 const path = require('path');
 
+fs.readdir(dir);
+
+
 // lecture contenu d'un fichier
 const fichier = fs.readFileSync('./README.md', {encoding:'utf-8'}).toString()
 console.log(fichier)
